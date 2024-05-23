@@ -1,0 +1,9 @@
+.bg-purple {
+  background-color: linear-gradient(180deg, #270025 0%, #1d0f2a 100%);
+}
+.appBackground {
+  /* This will create a linear gradient from top to bottom; you can adjust the angle if needed */
+  background: linear-gradient(0deg, #ffffff 0%, #e2c2ff 100%);
+  min-height: 100vh; /* This makes sure the gradient covers the full view height */
+  width: 100%;
+}
