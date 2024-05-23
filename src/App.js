@@ -32,6 +32,7 @@ import MandalDetails from "./Pages/detailview/MandalDetails";
 import AdminDetails from "./Pages/detailview/AdminDetails";
 import ActivityPage from "./Pages/ActivityPage";
 import ShibirRoutess from "./Pages/ShibirRoutess";
+import BapaLogin from "./Pages/BapaLogin";
 
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
     <Router>
       <AuthProvider>
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/" element={<BapaLogin />} />
           <Route
             path="/home"
             element={
